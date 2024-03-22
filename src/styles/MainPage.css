@@ -1,0 +1,41 @@
+.relative {
+    margin-top: 130px;
+	animation: fadeInUpDelay 1s ease-out;
+    font-size: 120px;
+    position: relative;
+    text-align: center;
+    color:white
+}
+
+.lable{
+    font-size: 50px;
+    color:white
+}
+
+.postContent{
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.sendbut{
+    margin-left: 30px;
+}
+
+@keyframes fadeInUpDelay {
+	0% {
+		opacity: 0;
+		transform: translateY(100px);
+	}
+
+	50% {
+		opacity: 0;
+		transform: translateY(100px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+

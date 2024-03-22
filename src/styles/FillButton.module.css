@@ -1,0 +1,57 @@
+.p {
+    --p: #000000;
+    color: #ffffff;
+    background-color:  rgba(255, 255, 255, 0.15);
+    font-size: 12px;
+    border: 0.3em solid var(--p);
+    border-radius: 5em;
+    width: fit-content;
+    height: fit-content;
+    padding: 0rem 1rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 0.2em;
+    text-align: center;
+    line-height: 3em;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  
+}
+
+.p .pf {
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    background-color: #101010;
+    transform: translateY(150%);
+    border-radius: 50%;
+    left: calc((var(--n) - 1) * 25%);
+    transition: 0.5s;
+    transition-delay: calc((var(--n) - 1) * 0.1s);
+    z-index: -1;
+}
+
+.p:hover {
+    color: rgb(255, 255, 255);
+}
+
+.p:hover .pf {
+    transform: translateY(0) scale(2);
+}
+
+.p .pf:nth-child(1) {
+    --n: 1;
+}
+
+.p .pf:nth-child(2) {
+    --n: 2;
+}
+
+.p .pf:nth-child(3) {
+    --n: 3;
+}
+
+.p .pf:nth-child(4) {
+    --n: 4;
+}

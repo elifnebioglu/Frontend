@@ -1,0 +1,59 @@
+/* styles.css */
+
+.navbar {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+    z-index: 100;
+    backdrop-filter: blur(4px);
+    background-color: rgba(0, 0, 0, 0); /* Adjust opacity as needed */
+    color: #ffffff; /* Adjust text color */
+    font-weight: bold;
+    min-width: 100vw;
+  }
+  
+  .navbar .logo {
+    font-size: 1.5rem; /* Adjust logo font size */
+    margin-left: 20px;
+    color: #ffffff;
+  }
+  
+  .navbar .logo:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.7)); /* Adjust shadow color and intensity */
+  }
+  
+  .navbar .nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .navbar .nav-links a {
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .navbar .nav-links a:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.7)); /* Adjust shadow color and intensity */
+  }
+  
+  .resume-link {
+    transition: all 0.3s ease;
+    margin-left: 500px;
+    color: yellowgreen;
+  }
+  .buton{
+    margin-left: 1100px;
+  }
+  
+  .resume-link:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 5px rgba(198, 190, 34, 0.7)); /* Adjust shadow color and intensity */
+  }
+  
