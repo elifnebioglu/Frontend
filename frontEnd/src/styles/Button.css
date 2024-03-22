@@ -1,0 +1,19 @@
+.button {
+	line-height: 60px;
+	height: 60px;
+	text-align: center;
+	min-width: 300px;
+	width: fit-content;
+	padding-left: 3rem;
+	padding-right: 3rem;
+	cursor: pointer;
+	color: #fff;
+	transition: all 0.5s;
+	position: relative;
+	font-weight: 200;
+	font-size: large;
+    background-color: rgba(255, 255, 255, 0.15);
+    left: 12%;
+    top: 5%;
+}
+
